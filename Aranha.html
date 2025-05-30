@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Trabalhando com tabelas </title>
+    </head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            height: 400px;
+        }
+        th {
+            border: 1px solid rgb(0, 0, 0);
+            padding: auto;
+        }
+        td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: auto;
+        }
+        td.dado {
+            width: 10px;
+            height: 10px;
+            background-color:1;
+        }
+        th.did{
+            width: 100px;
+            height: 500px;  
+        }
+        th.dod{
+            width: 300px;
+            height: 80px;
+        }
+        td.img{
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
+    <body>
+        <h1></h1>
+        <!--Hierarquia:
+            Table
+                Table row= Linha de tabela
+                    Table Header=Cabeçalho de tabela
+                    table data= Dados da tabela-->
+        <table center="center" border="1" cellpadding="10" cellspacing="0" align="center">
+            <tr><!--Primeira linha (Table row)-->
+                <th>
+                    Herói
+                </th>
+                <th>
+                    Revista
+                </th>
+                <th>
+                    Imagem
+                </th>
+            </tr>
+            <tr>
+                <td>THOR</td>
+                <td><a href="https://www.amazon.com.br/Est%C3%A1tua-Thor-Marvel-Files-revista/dp/1858752612"> Marvel</a></td>
+                <td class="img">
+                    <img src="https://www.get-digital.it/cdn/shop/files/productImage-20054-marvel-fact-files-thor-figur_700x700.jpg?v=1739370222" alt="Reloading" height="200px" width="200px">
+                </td>
+            </tr>
+            <tr>
+                <td>LOKI:</td>
+                <td class=""> <a href="https://www.amazon.com.br/Loki-1-Robert-Rodi/dp/856548422X"> Marvel </a>  </td>
+                <td class="img">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_949802-MLU78437778960_082024-O.webp" alt="Reloading" height="200px" width="150px">   
+            </tr>   
+        </table>
+    </body>
+</html>

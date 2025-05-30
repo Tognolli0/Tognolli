@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo - Diogo Tognolli</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Fira Code', monospace;
+      background-color: #000;
+      color: #e0e0e0;
+      padding: 30px;
+      animation: bg-fade 10s infinite alternate;
+    }
+    @keyframes bg-fade {
+      from { background-color: #000; }
+      to { background-color: #111; }
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00f2ff44;
+      transition: transform 0.3s ease-in-out;
+    }
+    .container:hover {
+      transform: scale(1.01);
+    }
+    h1, h2 {
+      color: #00f2ff;
+      margin-bottom: 10px;
+    }
+    h1 {
+      border-bottom: 2px solid #00f2ff;
+      padding-bottom: 10px;
+    }
+    .section {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #121212;
+      border: 1px solid #2a2a2a;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+    .section:hover {
+      background-color: #181818;
+    }
+    .section h2 {
+      margin-bottom: 10px;
+    }
+    .info p, .section p {
+      margin: 6px 0;
+    }
+    .list {
+      padding-left: 20px;
+    }
+    .list li {
+      margin-bottom: 6px;
+    }
+    .badges span {
+      background-color: #0f0f0f;
+      color: #00f2ff;
+      border: 1px solid #00f2ff;
+      padding: 6px 12px;
+      border-radius: 4px;
+      margin: 4px;
+      display: inline-block;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+    .badges span:hover {
+      background-color: #00f2ff;
+      color: #000;
+    }
+    .contact a {
+      color: #00f2ff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .contact a:hover {
+      color: #0ff;
+      text-decoration: underline;
+    }
+    .contact-icons i {
+      margin-right: 8px;
+      color: #00f2ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Diogo Yan Santos Tognolli</h1>
+    <div class="info contact">
+      <p><i class="fa-solid fa-location-dot"></i> Rua Bispo Isaias Sucasas, 42 - Ermelino Matarazzo, SP - 03814-060</p>
+      <p><i class="fa-solid fa-phone"></i> (11) 96987-0407</p>
+      <p><i class="fa-solid fa-envelope"></i> <a href="mailto:diogotognolli38@gmail.com">diogotognolli38@gmail.com</a></p>
+      <p><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/diogo-tognolli" target="_blank">linkedin.com/in/diogo-tognolli</a></p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-user"></i> Resumo Profissional</h2>
+      <p>Desenvolvedor em formação com experiência prática em suporte técnico e sólida base em linguagens de programação. Interesse em atuar com tecnologias modernas de Front-End e Back-End. Comprometido com a entrega de soluções eficientes e com aprendizado constante.</p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-bullseye"></i> Objetivo</h2>
+      <p>Atuar como Desenvolvedor Front-End ou Back-End, aplicando tecnologias modernas para criar soluções digitais robustas, intuitivas e escaláveis.</p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-graduation-cap"></i> Formação Acadêmica</h2>
+      <p><strong>Análise e Desenvolvimento de Sistemas</strong> - Universidade Cidade de São Paulo (Fev/2025 - Cursando)</p>
+      <p><strong>Técnico em Mecatrônica</strong> - Senai Roberto Simonsen (Fev/2021 - Dez/2022)</p>
+      <p><strong>Ensino Médio</strong> - Centro Educacional SESI-074 (Jan/2011 - Dez/2022)</p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-briefcase"></i> Experiência Profissional</h2>
+      <p><strong>Soldado</strong> – Força Aérea Brasileira (Mar/2024 – Fev/2025)</p>
+      <ul class="list">
+        <li>Atuação em processos administrativos e apoio logístico interno.</li>
+        <li>Organização de documentação e suporte a demandas operacionais.</li>
+      </ul>
+      <p><strong>Auxiliar Técnico</strong> – G FIX Comercial de Ferragens Ltda. (Fev/2023 – Atual)</p>
+      <ul class="list">
+        <li>Prestação de suporte técnico a clientes internos.</li>
+        <li>Monitoramento e manutenção de sistemas de controle.</li>
+        <li>Colaboração na otimização de processos operacionais.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-certificate"></i> Cursos e Certificações</h2>
+      <ul class="list">
+        <li><strong>Desenvolvimento Back-End:</strong> Python, Java, C# (Bradesco), Fundamentos (FIAP)</li>
+        <li><strong>Banco de Dados:</strong> IFRS, Bradesco</li>
+        <li><strong>Desenvolvimento Web:</strong> HTML, CSS, JavaScript (Bradesco)</li>
+        <li><strong>Google Cloud Computing Foundations – Google:</strong>
+          <ul>
+            <li>Build and Secure Networks in Google Cloud</li>
+            <li>Prepare Data for ML APIs on Google Cloud</li>
+            <li>Implement Load Balancing on Compute Engine</li>
+            <li>Perform Foundational Infrastructure Tasks in Google Cloud</li>
+          </ul>
+        </li>
+        <li><strong>Outros:</strong> Excel, LGPD, Indústria 4.0, Data Science (Senai), Sistema SAP (Udemy)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-language"></i> Idiomas</h2>
+      <p>Inglês – Intermediário</p>
+      <p>Espanhol – Intermediário</p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-code"></i> Habilidades Técnicas</h2>
+      <div class="badges">
+        <span>Python</span>
+        <span>Java</span>
+        <span>C#</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>SQL</span>
+        <span>Google Cloud</span>
+        <span>Git</span>
+        <span>GitHub</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-people-group"></i> Competências Comportamentais</h2>
+      <ul class="list">
+        <li>Inteligência emocional</li>
+        <li>Ética e responsabilidade</li>
+        <li>Visão estratégica</li>
+        <li>Relação interpessoal</li>
+        <li>Adaptabilidade</li>
+        <li>Espírito de equipe</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

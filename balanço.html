@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Trabalhando com tabelas </title>
+    </head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 100px;
+        }
+        th {
+            border: 1px solid rgb(0, 0, 0);
+            padding: auto;
+        }
+        td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: auto;
+        }
+        td.dado {
+            width: 10px;
+            height: 10px;
+            background-color:1;
+        }
+        th.did{
+            width: 100px;
+            height: 300px;  
+        }
+        th.dod{
+            width: 300px;
+            height: 80px;
+        }
+        td.img{
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
+    <body>
+        <h1></h1>
+        <!--Hierarquia:
+            Table
+                Table row= Linha de tabela
+                    Table Header=Cabeçalho de tabela
+                    table data= Dados da tabela-->
+        <table center="center" border="1" cellpadding="20" cellspacing="2" align="center">
+            <tr><!--Primeira linha (Table row)-->
+                <th rowspan="4">
+                    Balanço
+                </th>
+                <th>
+                    Mês
+                </th>
+                <th>
+                    Lucro
+                </th>
+                <th>
+                    Despesa
+                </th>
+                <th>
+                    Saldo
+                </th>
+            </tr>
+            <tr>
+                <td colspan="5"> <center>Ano de 2022</center></td>
+            </tr>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$10.000,00</td>
+                <td>R$5.000,00</td>
+                <td>R$5.000,00</td>
+            </tr>
+            <tr>
+                <td>Fevereiro:</td>
+                <td>R$8.000,00</td>
+                <td>R$4.000,00</td>
+                <td>R$4.000,00</td>
+            </tr>   
+        </table>
+    </body>
+</html>
